@@ -1,0 +1,64 @@
+{
+  "devDependencies": {
+    "@types/better-sqlite3": "*",
+    "discord-api-types": "*",
+    "kazagumo": "*",
+    "kazagumo-deezer": "*",
+    "kazagumo-spotify": "*",
+    "shoukaku": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@flytri/lyrics-finder": "*",
+    "@napi-rs/canvas": "*",
+    "@top-gg/sdk": "*",
+    "@types/lodash": "*",
+    "@types/ms": "*",
+    "axios": "*",
+    "better-sqlite3": "*",
+    "chalk": "*",
+    "create-id": "*",
+    "discord-hybrid-sharding": "*",
+    "discord.js": "*",
+    "lavasfy": "*",
+    "lodash": "*",
+    "moment": "*",
+    "ms": "*",
+    "pretty-ms": "*",
+    "spoti-pro": "*",
+    "systeminformation": "*",
+    "topgg-autoposter": "*"
+  },
+  "scripts": {
+    "start": "npx tsc && npm run build",
+    "build": "node build/index.js"
+  },
+  "type": "module",
+  "name": "avon",
+  "version": "5.0.0",
+  "description": "Best Music bot of discord in typescript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Punit9464/Avon.git"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "discord-music-bot",
+    "discord-bot",
+    "spotify",
+    "deezer",
+    "apple-music",
+    "discord-lavalink",
+    "lavalink",
+    "shoukaku",
+    "kazagumo"
+  ],
+  "author": "Punit Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Punit9464/Avon/issues"
+  },
+  "homepage": "https://github.com/Punit9464/Avon#readme"
+}
